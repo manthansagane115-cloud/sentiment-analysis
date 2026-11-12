@@ -1,0 +1,13 @@
+{
+  "best_model": "BERT",
+  "base_model": "google-bert/bert-base-multilingual-cased",
+  "model_path": "model",
+  "max_length": 256,
+  "labels": ["Negative", "Neutral", "Positive"],
+  "metrics": {
+    "BERT": {"Accuracy": 0.8009, "Precision (Macro)": 0.6959, "Recall (Macro)": 0.6718, "F1-score (Macro)": 0.6725},
+    "DistilBERT": {"Accuracy": 0.7824, "Precision (Macro)": 0.7412, "Recall (Macro)": 0.6206, "F1-score (Macro)": 0.5957}
+  },
+  "neutral_recall": 0.23,
+  "test_size": 216
+}
